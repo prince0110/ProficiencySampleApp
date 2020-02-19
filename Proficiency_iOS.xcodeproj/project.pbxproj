@@ -14,6 +14,10 @@
 		EF05529A23F84433005C2381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF05529923F84433005C2381 /* Assets.xcassets */; };
 		EF05529D23F84433005C2381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05529B23F84433005C2381 /* LaunchScreen.storyboard */; };
 		EF0552A823F84433005C2381 /* Proficiency_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0552A723F84433005C2381 /* Proficiency_iOSTests.swift */; };
+		EF0552B423FAD997005C2381 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0552B323FAD997005C2381 /* APIModel.swift */; };
+		EF0552B923FAE6DD005C2381 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0552B723FAE6DD005C2381 /* CustomTableViewCell.swift */; };
+		EF0552BA23FAE6DD005C2381 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0552B823FAE6DD005C2381 /* CustomTableViewCell.xib */; };
+		EF0552BC23FAF6AE005C2381 /* PlaceholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF0552BB23FAF6AE005C2381 /* PlaceholderImage.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		EF0552A323F84433005C2381 /* Proficiency_iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Proficiency_iOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF0552A723F84433005C2381 /* Proficiency_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Proficiency_iOSTests.swift; sourceTree = "<group>"; };
 		EF0552A923F84433005C2381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF0552B323FAD997005C2381 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
+		EF0552B723FAE6DD005C2381 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EF0552B823FAE6DD005C2381 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		EF0552BB23FAF6AE005C2381 /* PlaceholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PlaceholderImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +89,11 @@
 			children = (
 				EF05529023F8442F005C2381 /* AppDelegate.swift */,
 				EF05529223F8442F005C2381 /* SceneDelegate.swift */,
-				EF05529423F8442F005C2381 /* ViewController.swift */,
+				EF0552B223FAD976005C2381 /* Model */,
+				EF0552B523FAD9F1005C2381 /* View */,
+				EF0552B623FADA00005C2381 /* Controller */,
 				EF05529623F8442F005C2381 /* Main.storyboard */,
+				EF0552BB23FAF6AE005C2381 /* PlaceholderImage.jpg */,
 				EF05529923F84433005C2381 /* Assets.xcassets */,
 				EF05529B23F84433005C2381 /* LaunchScreen.storyboard */,
 				EF05529E23F84433005C2381 /* Info.plist */,
@@ -97,6 +108,31 @@
 				EF0552A923F84433005C2381 /* Info.plist */,
 			);
 			path = Proficiency_iOSTests;
+			sourceTree = "<group>";
+		};
+		EF0552B223FAD976005C2381 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF0552B323FAD997005C2381 /* APIModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF0552B523FAD9F1005C2381 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF0552B723FAE6DD005C2381 /* CustomTableViewCell.swift */,
+				EF0552B823FAE6DD005C2381 /* CustomTableViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF0552B623FADA00005C2381 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EF05529423F8442F005C2381 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,8 +216,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0552BC23FAF6AE005C2381 /* PlaceholderImage.jpg in Resources */,
 				EF05529D23F84433005C2381 /* LaunchScreen.storyboard in Resources */,
 				EF05529A23F84433005C2381 /* Assets.xcassets in Resources */,
+				EF0552BA23FAE6DD005C2381 /* CustomTableViewCell.xib in Resources */,
 				EF05529823F8442F005C2381 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +238,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EF0552B423FAD997005C2381 /* APIModel.swift in Sources */,
+				EF0552B923FAE6DD005C2381 /* CustomTableViewCell.swift in Sources */,
 				EF05529523F8442F005C2381 /* ViewController.swift in Sources */,
 				EF05529123F8442F005C2381 /* AppDelegate.swift in Sources */,
 				EF05529323F8442F005C2381 /* SceneDelegate.swift in Sources */,
@@ -364,6 +404,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Proficiency_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -381,6 +422,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Proficiency_iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
