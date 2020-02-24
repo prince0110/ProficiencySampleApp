@@ -16,8 +16,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GeF-11-avZ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="GeF-11-avZ">
                                 <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="BYZ-38-t0r" id="PWN-bg-CBh"/>
@@ -26,17 +27,11 @@
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="GeF-11-avZ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Cn3-Fe-ajU"/>
-                            <constraint firstItem="GeF-11-avZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="JK9-Ta-WGh"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="GeF-11-avZ" secondAttribute="bottom" id="Z6U-3O-H9G"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="GeF-11-avZ" secondAttribute="trailing" id="uda-CK-4Nc"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="Cgb-AM-0tb"/>
                     <connections>
-                        <outlet property="customTableView" destination="GeF-11-avZ" id="Mcc-WN-7dP"/>
+                        <outlet property="customTableView" destination="GeF-11-avZ" id="FxI-dT-4OY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -214,15 +214,10 @@ SWIFT_CLASS("_TtC15Proficiency_iOS11AppDelegate") SWIFT_AVAILABILITY(ios,introdu
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UIImageView;
-@class UILabel;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC15Proficiency_iOS19CustomTableViewCell")
 @interface CustomTableViewCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imgView;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified titleLbl;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified descriptionLbl;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
@@ -244,8 +239,6 @@ SWIFT_CLASS("_TtC15Proficiency_iOS13SceneDelegate") SWIFT_AVAILABILITY(ios,intro
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-
-
 @class UITableView;
 @class NSBundle;
 
@@ -257,6 +250,8 @@ SWIFT_CLASS("_TtC15Proficiency_iOS14ViewController")
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
+
+
 
 
 @interface ViewController (SWIFT_EXTENSION(Proficiency_iOS)) <UITableViewDataSource, UITableViewDelegate>
