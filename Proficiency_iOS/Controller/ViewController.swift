@@ -9,9 +9,8 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    @IBOutlet weak var customTableView: UITableView!
     
+    var customTableView = UITableView()
     var itemsArray: [ItemDict]?
     var refreshControl = UIRefreshControl()
     var downloadedImageUrls = [String: UIImage?]()
@@ -25,6 +24,12 @@ class ViewController: UIViewController {
     }
 
     func configureTableView() {
+        
+        let tableFrame = CGRect(x: 0, y: 44, width: 375, height: 623)
+        self.customTableView = UITableView(frame: tableFrame)
+        self.customTableView.dataSource = self
+        self.customTableView.delegate = self
+        self.view.addSubview(self.customTableView)
         
         self.customTableView.translatesAutoresizingMaskIntoConstraints = false
 

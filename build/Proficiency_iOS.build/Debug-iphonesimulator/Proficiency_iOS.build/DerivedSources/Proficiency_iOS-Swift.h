@@ -239,12 +239,10 @@ SWIFT_CLASS("_TtC15Proficiency_iOS13SceneDelegate") SWIFT_AVAILABILITY(ios,intro
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class UITableView;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC15Proficiency_iOS14ViewController")
 @interface ViewController : UIViewController
-@property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified customTableView;
 - (void)viewDidLoad;
 - (void)refreshWithSender:(id _Nonnull)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
@@ -253,6 +251,7 @@ SWIFT_CLASS("_TtC15Proficiency_iOS14ViewController")
 
 
 
+@class UITableView;
 
 @interface ViewController (SWIFT_EXTENSION(Proficiency_iOS)) <UITableViewDataSource, UITableViewDelegate>
 - (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
