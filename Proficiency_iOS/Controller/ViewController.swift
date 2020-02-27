@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         self.customTableView.topAnchor.constraint(equalTo: safeGuide.topAnchor).isActive = true
         self.customTableView.bottomAnchor.constraint(equalTo: safeGuide.bottomAnchor).isActive = true
 
-        self.customTableView.register(UINib.init(nibName: "CustomTableViewCell", bundle: nil), forCellReuseIdentifier: "CustomTableViewCellIdentifier")
+        self.customTableView.register(CustomTableViewCell.self, forCellReuseIdentifier: "CustomTableViewCellIdentifier")
         self.customTableView.estimatedRowHeight = 10
         self.customTableView.rowHeight = UITableView.automaticDimension
 

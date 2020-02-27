@@ -10,13 +10,11 @@
 		EF05529123F8442F005C2381 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05529023F8442F005C2381 /* AppDelegate.swift */; };
 		EF05529323F8442F005C2381 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05529223F8442F005C2381 /* SceneDelegate.swift */; };
 		EF05529523F8442F005C2381 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF05529423F8442F005C2381 /* ViewController.swift */; };
-		EF05529823F8442F005C2381 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05529623F8442F005C2381 /* Main.storyboard */; };
 		EF05529A23F84433005C2381 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF05529923F84433005C2381 /* Assets.xcassets */; };
 		EF05529D23F84433005C2381 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF05529B23F84433005C2381 /* LaunchScreen.storyboard */; };
 		EF0552A823F84433005C2381 /* Proficiency_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0552A723F84433005C2381 /* Proficiency_iOSTests.swift */; };
 		EF0552B423FAD997005C2381 /* APIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0552B323FAD997005C2381 /* APIModel.swift */; };
 		EF0552B923FAE6DD005C2381 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF0552B723FAE6DD005C2381 /* CustomTableViewCell.swift */; };
-		EF0552BA23FAE6DD005C2381 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF0552B823FAE6DD005C2381 /* CustomTableViewCell.xib */; };
 		EF0552BC23FAF6AE005C2381 /* PlaceholderImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EF0552BB23FAF6AE005C2381 /* PlaceholderImage.jpg */; };
 /* End PBXBuildFile section */
 
@@ -35,7 +33,6 @@
 		EF05529023F8442F005C2381 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF05529223F8442F005C2381 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EF05529423F8442F005C2381 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF05529723F8442F005C2381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF05529923F84433005C2381 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF05529C23F84433005C2381 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF05529E23F84433005C2381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +41,6 @@
 		EF0552A923F84433005C2381 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EF0552B323FAD997005C2381 /* APIModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIModel.swift; sourceTree = "<group>"; };
 		EF0552B723FAE6DD005C2381 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		EF0552B823FAE6DD005C2381 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 		EF0552BB23FAF6AE005C2381 /* PlaceholderImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = PlaceholderImage.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +88,6 @@
 				EF0552B223FAD976005C2381 /* Model */,
 				EF0552B523FAD9F1005C2381 /* View */,
 				EF0552B623FADA00005C2381 /* Controller */,
-				EF05529623F8442F005C2381 /* Main.storyboard */,
 				EF0552BB23FAF6AE005C2381 /* PlaceholderImage.jpg */,
 				EF05529923F84433005C2381 /* Assets.xcassets */,
 				EF05529B23F84433005C2381 /* LaunchScreen.storyboard */,
@@ -122,7 +117,6 @@
 			isa = PBXGroup;
 			children = (
 				EF0552B723FAE6DD005C2381 /* CustomTableViewCell.swift */,
-				EF0552B823FAE6DD005C2381 /* CustomTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -219,8 +213,6 @@
 				EF0552BC23FAF6AE005C2381 /* PlaceholderImage.jpg in Resources */,
 				EF05529D23F84433005C2381 /* LaunchScreen.storyboard in Resources */,
 				EF05529A23F84433005C2381 /* Assets.xcassets in Resources */,
-				EF0552BA23FAE6DD005C2381 /* CustomTableViewCell.xib in Resources */,
-				EF05529823F8442F005C2381 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,14 +257,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		EF05529623F8442F005C2381 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF05529723F8442F005C2381 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF05529B23F84433005C2381 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
