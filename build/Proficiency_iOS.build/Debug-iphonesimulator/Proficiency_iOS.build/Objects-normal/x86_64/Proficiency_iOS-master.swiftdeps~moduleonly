@@ -1,9 +1,9 @@
-version: "Apple Swift version 5.1.3 (swiftlang-1100.0.282.1 clang-1100.0.33.15)"
-options: "e0070f16c131f59df750322428b973d2"
-build_time: [1582568340, 53374000]
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "28bfa4d3c91024988d8c769a04c3e2af"
+build_time: [1582830908, 686716000]
 inputs:
   "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/Model/APIModel.swift": [1581949525, 980864144]
   "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/View/CustomTableViewCell.swift": [1582567168, 348033339]
-  "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/Controller/ViewController.swift": [1582568339, 863754726]
-  "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/AppDelegate.swift": [1581780244, 155789562]
-  "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/SceneDelegate.swift": [1581780356, 754890081]
+  "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/Controller/ViewController.swift": !dirty [1582568339, 863754726]
+  "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/AppDelegate.swift": !dirty [1582830889, 429678200]
+  "/Users/princegupta/Desktop/Proficiency_iOS/Proficiency_iOS/SceneDelegate.swift": !dirty [1581780356, 754890081]
